@@ -24,7 +24,7 @@
     </head>
 
     <div
-        class="h-[100vh] flex flex-col justify-center bg-BackgroundColor_Light dark:bg-BackgroundColor_Dark duration-150 m-auto">
+        class="h-[100vh] flex flex-col justify-center bg-BackgroundColor_Light dark:bg-BackgroundColor_Dark duration-150 m-auto overflow-hidden">
 
 
         <Transition name="fade" mode="out-in">
