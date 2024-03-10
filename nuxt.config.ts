@@ -4,4 +4,12 @@ export default defineNuxtConfig({
   modules: [
     "@nuxt/ui",
   ],
+
+  app: {
+    head: {
+      bodyAttrs: {
+        class: 'overflow-hidden',
+      },
+    },
+  },
 })
