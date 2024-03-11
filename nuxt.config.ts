@@ -5,6 +5,12 @@ export default defineNuxtConfig({
     "@nuxt/ui",
   ],
 
+  nitro: {
+    prerender: {
+      autoSubfolderIndex: false
+    }
+  },
+
   app: {
     head: {
       bodyAttrs: {
